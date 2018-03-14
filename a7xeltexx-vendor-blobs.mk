@@ -59,6 +59,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+    $(LOCAL_PATH)/proprietary/bin/mcDriverDaemon:system/lib/mcDriverDaemon \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.universal7580.so:system/lib/hw/sensors.universal7580.so \
